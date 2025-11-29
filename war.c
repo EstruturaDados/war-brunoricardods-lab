@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // Para a função system() (opcional, para limpar o console)
+#include <stdlib.h> // Para limpar o console
 #include <string.h> // Para a função strlen() e strcspn()
 
 // Define um tamanho máximo para o nome do território e a cor
