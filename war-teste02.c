@@ -22,7 +22,7 @@ int main() {
     Territorio mapa[NUM_TERRITORIOS];
     int i; // Variável de controle para os loops
 
-    printf("## Cadastro Inicial dos Territórios (%d no total) ##\n\n", NUM_TERRITORIOS);
+    printf("## 🌍 Cadastro Inicial dos Territórios (%d no total) ##\n\n", NUM_TERRITORIOS);
 
     // --- 3. Entrada de Dados (Leitura de dados pelo terminal) ---
     for (i = 0; i < NUM_TERRITORIOS; i++) {
@@ -70,7 +70,7 @@ int main() {
     }
 
     // Opcional: Limpar o console para uma saída mais organizada
-    
+    // Nota: 'cls' no Windows, 'clear' no Linux/macOS
     #ifdef _WIN32
         system("cls");
     #else
